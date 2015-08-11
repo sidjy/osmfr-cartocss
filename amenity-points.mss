@@ -580,6 +580,15 @@
     marker-placement: interior;
     marker-clip: false;
   }
+  
+  [leisure = 'disc_golf_course'][zoom >= 14][zoom < 16]::leisure {
+    marker-file: url('symbols/fr/disc_golf-maki.svg');
+    marker-fill: #040; // un peu de vert...
+    marker-transform: "scale(0.15)";
+    marker-placement: interior;
+    marker-clip: false;
+  }
+  
 
   [entrance != ''][zoom >= 17] {
     marker-fill: black;
